@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mItemChange"
+        android:title="Change">
+        <menu>
+            <item
+                android:id="@+id/mItemINVISIBLE"
+                android:title="Invisible" />
+            <item
+                android:id="@+id/mItemChangeColor"
+                android:title="Change Color" />
+            <item
+                android:id="@+id/mItemHelloWorld"
+                android:title="Hello World!!" />
+            <item
+                android:id="@+id/mItemRotate"
+                android:title="Rotate" />
+            <item
+                android:id="@+id/mItemChangeHeight"
+                android:title="Change Height" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mItemReset"
+        android:title="Reset" />
+    <item
+        android:id="@+id/mItemExit"
+        android:title="Exit" />
+</menu>
